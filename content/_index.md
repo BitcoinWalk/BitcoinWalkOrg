@@ -6,6 +6,10 @@ title: BitcoinWalk
 
 Put a summary of BitcoinWalk here
 
+# Attempt three at something
+
+- Hello hello hello
+
 #### Manifesto
 
 - Put the
@@ -16,3 +20,6 @@ Put a summary of BitcoinWalk here
 
 - [Edinburgh](/locations/edinburgh)
 
+```bash
+do this shit
+```

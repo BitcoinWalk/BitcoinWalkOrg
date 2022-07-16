@@ -6,24 +6,23 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
-    --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(246, 147, 27); /* Bitcoin Orange */
+    --theme: rgb(255, 255, 255); /* Unsure */
+    --entry: rgb(255, 255, 255); /* Unsure */
+    --primary: rgb(30, 30, 30); /* All titles including header */
+    --secondary: rgb(31, 31, 31); /* Footer */
+    --tertiary: rgb(214, 214, 214); /* Unsure */
+    --content: rgb(31, 31, 31); /* Main content text */
+    --hljs-bg: rgb(28, 29, 33); /* Code box background */
+    --code-bg: rgb(255, 153, 0); /* Bitcoin Orange - Background */
     --border: rgb(238, 238, 238);
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
+    --theme: rgb(29, 30, 32); /* Background */
     --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --code-bg: rgb(246, 147, 27);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
+    --primary: rgb(218, 218, 219); /* All titles including header */*/
+    --secondary: rgb(155, 156, 157); /* Footer */
+    --tertiary: rgb(65, 66, 68); /* Unsure */
     --content: rgb(196, 196, 197);
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
