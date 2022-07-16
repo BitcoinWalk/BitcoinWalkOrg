@@ -1,3 +1,4 @@
 baseURL: 'https://bitcoinwalk.org/'
 languageCode: 'en-gb'
 title: 'BitcoinWalk'
+theme: 'PaperMod'

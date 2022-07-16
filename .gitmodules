@@ -1,3 +1,6 @@
 [submodule "content/locations/edinburgh"]
 	path = content/locations/edinburgh
 	url = git@github.com:BitcoinWalk/BitcoinWalkOrg-Edinburgh.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = git@github.com:adityatelange/hugo-PaperMod.git
