@@ -4,3 +4,6 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = git@github.com:adityatelange/hugo-PaperMod.git
+[submodule "themes/lugo"]
+	path = themes/lugo
+	url = git@github.com:LukeSmithxyz/lugo.git
