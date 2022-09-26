@@ -2,17 +2,9 @@
 title: BitcoinWalk
 ---
 
-## Welcome
+# BitcoinWalk
 
-Put a summary of BitcoinWalk here
+Every Saturday at noon we walk around Arthur's Seat and talk about Bitcoin.
 
-#### Manifesto
-
-- Put the
-- Manifesto 
-- In this section
-
-#### Locations
-
-- [Edinburgh](/locations/edinburgh)
+[Join the next meetup!](https://www.meetup.com/BitcoinWalk/)
 
