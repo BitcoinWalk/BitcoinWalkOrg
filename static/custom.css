@@ -39,3 +39,14 @@ article.first-entry {
     min-height: 0;
 }
 
+/* Plotly */
+
+div.js-plotly-plot g.cartesianlayer text, div.js-plotly-plot g.infolayer text {
+    fill: var(--primary) !important;
+}
+
+div.js-plotly-plot .modebar {
+    /* Disable toolbar */
+    display: none !important;
+}
+
