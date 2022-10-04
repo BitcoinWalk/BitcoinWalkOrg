@@ -1,0 +1,52 @@
+:root {
+    --anim: 0.2s;
+    --btc-orange: #F7931A;
+    --btc-gray: #4D4D4D;
+}
+
+
+a {
+    transition: color var(--anim);
+}
+
+body a:hover {
+    color: var(--btc-orange);
+}
+
+
+body:not(.dark) header.header {
+    background-color: var(--btc-orange);
+}
+
+body:not(.dark) header.header nav.nav a:hover {
+    color: var(--btc-gray);
+}
+
+header.header nav.nav div.logo a {
+    position: relative;
+    margin-left: 1.75em;
+}
+
+header.header nav.nav div.logo a::before {
+    content: url('walk-logo.svg');
+    position: absolute;
+    left: -2.25em;
+    top: 0.3em;
+    width: 2em;
+}
+
+article.first-entry {
+    min-height: 0;
+}
+
+/* Plotly */
+
+div.js-plotly-plot g.cartesianlayer text, div.js-plotly-plot g.infolayer text {
+    fill: var(--primary) !important;
+}
+
+div.js-plotly-plot .modebar {
+    /* Disable toolbar */
+    display: none !important;
+}
+

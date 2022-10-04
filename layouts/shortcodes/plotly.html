@@ -1,0 +1,34 @@
+{{- $jsonUrl := .Get "jsonUrl" }}
+{{- $height := .Get "height" | default "200px" }}
+{{- $id := md5 $jsonUrl }}
+<div id="{{$id}}" class="plotly" style="height: {{$height}};"></div>
+
+<div id="tweet-view"></div>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script>
+    Plotly.d3.json({{$jsonUrl}}, function(err, fig) {
+    Plotly.plot('{{$id}}', fig.data, fig.layout, {responsive: true});
+
+    let plot = document.getElementById('{{$id}}');
+    let tweetView = document.getElementById("tweet-view");
+    plot.on('plotly_click', (data) => {
+        // console.log(data['points'][0]['data']['tweetLink']);
+        let url = data['points'][0]['customdata']
+        if(url !== null)
+            window.open(url, '_blank').focus();
+    }).on('plotly_hover', (data) => {
+        let url = data['points'][0]['customdata']
+        if(url !== null) {
+            console.log(document.body.className);
+            tweetView.innerHTML = `
+                <blockquote id="tweet-view" class="twitter-tweet" data-theme="${document.body.classList.contains("dark") ? "dark" : ""}">
+                <a href="${url}"></a>
+                </blockquote>
+            `;
+            twttr.widgets.load();
+}
+    });
+});
+
+</script>

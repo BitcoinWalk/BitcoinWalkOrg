@@ -1,4 +1,52 @@
 baseURL: 'https://bitcoinwalk.org/'
 languageCode: 'en-gb'
 title: 'BitcoinWalk'
+paginate: 5
+relativeURLs: true
 theme: 'PaperMod'
+
+enableEmoji: true
+enableInlineShortcodes: true
+params:
+  ShowBreadCrumbs: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  socialIcons:
+    - name: Telegram
+      url: "https://t.me/+Av2MVsJqA802NzQ0"
+      weight: 1
+    - name: Twitter
+      url: "https://twitter.com/BitcoinWalkOrg"
+      weight: 2
+    - name: GitHub
+      url: "https://github.com/BitcoinWalk/BitcoinWalkOrg"
+      weight: 3
+  homeInfoParams:
+    Content: Find us on social media
+  mainSections:
+    - main
+    - locations
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - name: Manifesto
+      url: manifesto
+      weight: 1
+    - name: Locations
+      url: locations
+      weight: 2
+    - name: Telegram
+      url: "https://t.me/+Av2MVsJqA802NzQ0"
+      weight: 3
+    - name: Twitter
+      url: "https://twitter.com/BitcoinWalkOrg"
+      weight: 4
+    - name: GitHub
+      url: "https://github.com/BitcoinWalk/BitcoinWalkOrg"
+      weight: 5
+

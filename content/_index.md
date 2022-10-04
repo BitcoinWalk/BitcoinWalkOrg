@@ -1,18 +1,13 @@
 ---
 title: BitcoinWalk
+plotly: true
 ---
 
-## Welcome
+# BitcoinWalk
 
-Put a summary of BitcoinWalk here
+Every Saturday at noon we walk around Arthur's Seat and talk about Bitcoin.
 
-#### Manifesto
+[Join the next meetup!](https://www.meetup.com/BitcoinWalk/)
 
-- Put the
-- Manifesto 
-- In this section
-
-#### Locations
-
-- [Edinburgh](/locations/edinburgh)
+{{< plotly jsonUrl="/plots/proof-of-walk.json" height="400px" >}}
 
